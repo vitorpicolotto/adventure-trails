@@ -1,4 +1,5 @@
-[
+{
+  "trilhas": [
     {
       "nomeTrilha": "Lagoinha do Leste - Matadeiro",
       "cidade": "Florianópolis",
@@ -36,14 +37,15 @@
     },
 
     {
-        "nomeTrilha": "Trilha da Cachoeira da Lagoa do Peri",
-        "cidade": "Florianópolis",
-        "estado": "SC",
-        "duracao": 3,
-        "trajeto": 5,
-        "dificuldade": "Difícil",
-        "tipo": "Caminhada/Bike",
-        "nomeUsuario": "Edilton Coltro",
-        "urlImagem": "../src/assets/cachoeiraPeri.jpg"
-      }
-]
+      "nomeTrilha": "Trilha da Cachoeira da Lagoa do Peri",
+      "cidade": "Florianópolis",
+      "estado": "SC",
+      "duracao": 3,
+      "trajeto": 5,
+      "dificuldade": "Difícil",
+      "tipo": "Caminhada/Bike",
+      "nomeUsuario": "Edilton Coltro",
+      "urlImagem": "../src/assets/cachoeiraPeri.jpg"
+    }
+  ]
+}

@@ -1,24 +1,16 @@
-import { useState, useEffect } from "react";
+import {useEffect, useState} from  'react';
 
-
-function useFetch(){
-    const [infoTrilhas, setInfoTrilhas] = useState()
+function useFetch(url){
+    const [dados, setDados] = useState()
 
     useEffect(() => {
-        const fetchTrilhas = async () =>{
-            try {
-                const response = await fetch("./infoTrilhas.json");
-                const data = await response.json();
-                setInfoTrilhas(data.infoTrilhas);
-            } catch (error) {
-                window.alert("Erro ao carregar trilhas", error)
-            }
-        };
+    fetch(url)
+        .then((response) => response.json())
+        .then((data) => setDados(data) )
+        .catch((error) => console.log(error));
+}, [url]) //se a URL mudar, você (fetch) chama de novo, se não chama só uma vez - por isso está entre []
 
-        fetchTrilhas();
-    }, []);
-
-    return infoTrilhas;
+    return dados;
 }
 
-export default useFetch
+export default useFetch;
