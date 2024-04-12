@@ -1,0 +1,49 @@
+[
+    {
+      "nomeTrilha": "Lagoinha do Leste - Matadeiro",
+      "cidade": "Florianópolis",
+      "estado": "SC",
+      "duracao": 3,
+      "trajeto": 6,
+      "dificuldade": "Moderada",
+      "tipo": "Caminhada",
+      "nomeUsuario": "Renato Botteon",
+      "urlImagem": "../src/assets/lagoinha.jpg"
+    },
+
+    {
+      "nomeTrilha": "Praia de Naufragados",
+      "cidade": "Florianópolis",
+      "estado": "SC",
+      "duracao": 1,
+      "trajeto": 3,
+      "dificuldade": "Moderada",
+      "tipo": "Caminhada",
+      "nomeUsuario": "Aramis Merki II",
+      "urlImagem": "../src/assets/naufragados.jpg"
+    },
+
+    {
+      "nomeTrilha": "Praia do Saquinho",
+      "cidade": "Florianópolis",
+      "estado": "SC",
+      "duracao": 1,
+      "trajeto": 2,
+      "dificuldade": "Fácil",
+      "tipo": "Caminhada",
+      "nomeUsuario": "Mateus Boaventura",
+      "urlImagem": "../src/assets/saquinho.jpg"
+    },
+
+    {
+        "nomeTrilha": "Trilha da Cachoeira da Lagoa do Peri",
+        "cidade": "Florianópolis",
+        "estado": "SC",
+        "duracao": 3,
+        "trajeto": 5,
+        "dificuldade": "Difícil",
+        "tipo": "Caminhada/Bike",
+        "nomeUsuario": "Edilton Coltro",
+        "urlImagem": "../src/assets/cachoeiraPeri.jpg"
+      }
+]
